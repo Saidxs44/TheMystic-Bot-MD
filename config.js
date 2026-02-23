@@ -4,7 +4,7 @@ import {fileURLToPath} from 'url';
 import fs from 'fs'; 
 import moment from 'moment-timezone';
 
-global.botnumber = ""
+global.botnumber = "201128400847"
 global.confirmCode = ""
 global.authFile = `MysticSession`;
 
@@ -13,10 +13,10 @@ global.authFile = `MysticSession`;
 // Error de m.isBaileys marcado como false fix temporal
 global.isBaileysFail = false;
 
-global.defaultLenguaje = 'es';
+global.defaultLenguaje = 'ar';
 
 global.owner = [
-  ['5219996125657', '👑 Propietario 👑', true],
+  ['201115068240', '👑 Propietario 👑', true],
   ['5492916450307'],
   ['5493794297363'],
   ['59169082575'],
@@ -31,11 +31,11 @@ global.prems = [];
 global.BASE_API_DELIRIUS = "https://delirius-apiofc.vercel.app";
 
 global.packname = 'Sticker';
-global.author = 'BrunoSobrino';
-global.wm = 'The Mystic - Bot';
-global.titulowm = 'Mystic Bot';
-global.titulowm2 = `Mystic Bot`
-global.igfg = 'The Mystic';
+global.author = 'luffy';
+global.wm = 'mary - Bot';
+global.titulowm = 'mary Bot';
+global.titulowm2 = `mary Bot`
+global.igfg = 'mary';
 global.wait = '*_[ ⏳ ] Cargando..._*';
 
 global.imagen1 = fs.readFileSync('./src/assets/images/menu/languages/es/menu.png');
